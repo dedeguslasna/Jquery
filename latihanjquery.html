@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Jquery Pertama</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <p id="paragraf">Ini adalah paragraf pertama</p>
+        <p id="paragraf2">Ini adalah paragraf kedua</p>
+        <button id="button">Klik Saya</button>
+        <button id="button2">Tampilkan </button>
+    <script>
+        $(document).ready(function() {
+             $("#button").click(function() {
+                $("#paragraf").fadeOut("show");
+                $("#paragraf2").fadeOut("show");
+                });
+                $("#button2").click(function() {
+                $("#paragraf").fadeIn("show");
+                $("#paragraf2").fadeIn("show");
+                });
+                });
+                //DI UPLOAD DI WWW.GITHUB.COM
+
+    </script>
+</body>
+</html>
